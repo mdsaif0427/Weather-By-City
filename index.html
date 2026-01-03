@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weather-Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" aria-label="city name">
+
+            <button ><img src="images/search.png" ></button>
+        </div>
+
+        <div class="error">
+            <p> Invalid city name ❌</p>
+        </div>
+       
+        <div class="weather">
+           
+            <img src="images/clouds.png" class="weathericon">
+            <h1 class="temp">_ _°C</h1>
+            
+            <h2 class="city">....</h2>
+            <p class="feel">Feels-__°C</p>
+             <div class="weatherd">
+
+             <div class="col">
+                <img src="images/wind.png" >
+                <p class="wind">_km/h</p>
+                <p>Wind</p>
+            </div>
+            <div class="col">
+                <img src="images/humidity.png" class="new">
+                <p class="humidity">_%</p>
+                <p>humidity</p>
+            </div>
+            <div class="col">
+                <img src="images/eyses.png" id="eye">
+                
+                <p id="vis">--</p>
+                <p >Visibility</p>
+            </div>
+        </div>
+
+        </div>
+
+
+      
+
+
+
+
+    </div>
+
+  
+
+    <script src="script.js"></script>
+</body>
+
+</html>
